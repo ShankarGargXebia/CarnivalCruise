@@ -1,0 +1,16 @@
+<suite name="Parallel Tests" verbose="1">
+    <tests>
+        <test name="Basic_sanity">
+            <parameters>
+                <parameter name="AUT" value="web"/>
+                <parameter name="browser" value="chrome"/>
+                <parameter name="TestGroup" value=""/>
+                <parameter name="TestCaseID" value="VerifyCarnivalBrokenLinks,VerifyCarnivalHomePage"/>
+                <parameter name="TestCaseCount" value=""/>
+            </parameters>
+            <classes>
+                <class name="com.tribune.uiautomation.testscripts.TestEngine"/>
+            </classes>
+        </test>
+    </tests>
+</suite>
