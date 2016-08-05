@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<selenium.version>2.53.0</selenium.version>
+		<selenium.version>2.53.1</selenium.version>
 		<appium.version>3.2.0</appium.version>
 		<http.version>3.0.1</http.version>
 		<testng.version>6.9.4</testng.version>

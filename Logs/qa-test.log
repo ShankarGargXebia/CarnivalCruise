@@ -26,3 +26,216 @@
  TestCaseID: VerifyCarnivalBrokenLinks
  TestStep: checkbrokenlinks
  BDD_Step: check for broken links
+[2016-08-05 11:10:10,219] - INFO : Status: fail
+ Remarks: Below are the broken links: <br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=&rp=aHR0cDovL3BoeC5jb3Jwb3JhdGUtaXIubmV0L3Bob2VuaXguemh0bWw%2fYz0xNDA2OTAmcD1pcm9sLWluZGV4<br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=irol-index_pf
+
+[2016-08-05 11:10:10,220] - INFO : 0 Days : 0 Hours : 1 mins : 50 sec
+[2016-08-05 11:10:10,222] - INFO : Current Execution Count: 1/0
+[2016-08-05 11:10:10,222] - INFO : Execution ends for VerifyCarnivalBrokenLinks
+[2016-08-05 11:10:10,223] - INFO : Execution start for VerifyCarnivalHomePage
+[2016-08-05 11:10:10,223] - INFO : Page : NA
+[2016-08-05 11:10:10,223] - INFO : Timestamp: Fri Aug 05 111010 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+[2016-08-05 11:10:10,244] - INFO : Current ViewPort is: (1500, 827)
+[2016-08-05 11:10:10,244] - INFO : Resizing window to 1500,827 : 1500x827
+[2016-08-05 11:10:10,464] - INFO : New ViewPort is: (1500, 827)
+[2016-08-05 11:10:10,469] - INFO : Opening...http://www.carnivalcorp.com/
+[2016-08-05 11:10:11,373] - INFO : Status: pass
+ Remarks: http://www.carnivalcorp.com/
+
+[2016-08-05 11:10:11,373] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:10:11,373] - INFO : Timestamp: Fri Aug 05 111011 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "Logo" is displayed or not
+[2016-08-05 11:10:17,945] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:10:17,945] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:10:17,945] - INFO : Timestamp: Fri Aug 05 111017 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "brandLogos" is displayed or not
+[2016-08-05 11:10:24,490] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:10:24,490] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:10:24,490] - INFO : Timestamp: Fri Aug 05 111024 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "MenuItem" is displayed or not
+[2016-08-05 11:10:31,040] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:10:31,040] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:10:31,040] - INFO : Timestamp: Fri Aug 05 111031 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "BAckgroundImage" is displayed or not
+[2016-08-05 11:10:37,612] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:10:37,612] - INFO : Page : NA
+[2016-08-05 11:10:37,612] - INFO : Timestamp: Fri Aug 05 111037 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: closeAllBrowsers
+ BDD_Step: close all Browsers
+[2016-08-05 11:10:37,691] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:10:37,692] - INFO : 0 Days : 0 Hours : 0 mins : 27 sec
+[2016-08-05 11:10:37,693] - INFO : Current Execution Count: 2/0
+[2016-08-05 11:10:37,693] - INFO : Execution ends for VerifyCarnivalHomePage
+[2016-08-05 11:10:37,709] - INFO : java.lang.NullPointerException
+[2016-08-05 11:10:39,725] - INFO : SanityDesktop!VerifyCarnivalBrokenLinks!chrome!1500,827!checkbrokenlinks!true
+[2016-08-05 11:10:39,725] - INFO : SanityDesktop!VerifyCarnivalHomePage!chrome!1500,827!none!false
+[2016-08-05 11:10:39,728] - INFO : java.net.UnknownHostException: bhavuks-ipad.xebiaindia.local: bhavuks-ipad.xebiaindia.local: nodename nor servname provided, or not known
+[2016-08-05 11:42:43,793] - INFO : Total Test Case allocated for execution: 0
+[2016-08-05 11:42:43,800] - INFO : Generating Images Feature Disabled.
+[2016-08-05 11:42:43,800] - INFO : Break Point used: 1500,4500
+[2016-08-05 11:42:43,800] - INFO : Remote execution is false
+[2016-08-05 11:42:43,809] - INFO : TestGroup is: SanityDesktop
+[2016-08-05 11:42:43,811] - INFO : true
+[2016-08-05 11:42:43,833] - INFO : Execution start for VerifyCarnivalBrokenLinks
+[2016-08-05 11:42:43,833] - INFO : Page : NA
+[2016-08-05 11:42:43,833] - INFO : Timestamp: Fri Aug 05 114243 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+[2016-08-05 11:43:29,529] - ERROR: Exception occurred at driver initialization: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+-a285-3208198ce6fd}","syncGUID":"S0STnkLjRj7s","location":"app-global","version":"47.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1468224910000,"updateDate":1468224910000,"applyBackgroundUpdates":1,"skinnable":true,"size":7140,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1470377564690	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1470377564690	DeferredSave.extensions.json	DEBUG	Save changes
+1470377564691	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1470377564691	addons.xpi-utils	DEBUG	Updating add-on states
+1470377564691	addons.xpi-utils	DEBUG	Writing add-ons list
+1470377564692	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1470377564692	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1470377564692	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1470377564692	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1470377564693	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1470377564693	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1470377564707	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1470377564708	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1470377564708	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Starting provider: GMPProvider
+1470377564712	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1470377564712	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1470377564712	addons.manager	DEBUG	Starting provider: PluginProvider
+1470377564712	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1470377564713	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1470377564713	addons.manager	DEBUG	Completed startup sequence
+1470377564926	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1470377564926	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1470377564926	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1470377564927	DeferredSave.extensions.json	DEBUG	Starting write
+1470377565031	addons.repository	DEBUG	No addons.json found.
+1470377565032	DeferredSave.addons.json	DEBUG	Save changes
+1470377565035	DeferredSave.addons.json	DEBUG	Starting timer
+1470377565070	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1470377565070	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1470377565070	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1470377565073	DeferredSave.extensions.json	DEBUG	Write succeeded
+1470377565073	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1470377565086	DeferredSave.addons.json	DEBUG	Starting write
+1470377565101	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.7.0_79'
+Driver info: driver.version: FirefoxDriver
+[2016-08-05 11:43:29,530] - INFO : Unknown Exception occured: java.lang.NullPointerException
+[2016-08-05 11:43:31,546] - INFO : java.net.UnknownHostException: bhavuks-ipad.xebiaindia.local: bhavuks-ipad.xebiaindia.local: nodename nor servname provided, or not known
+[2016-08-05 11:44:18,335] - INFO : Total Test Case allocated for execution: 0
+[2016-08-05 11:44:18,341] - INFO : Generating Images Feature Disabled.
+[2016-08-05 11:44:18,342] - INFO : Break Point used: 1500,4500
+[2016-08-05 11:44:18,342] - INFO : Remote execution is false
+[2016-08-05 11:44:18,352] - INFO : TestGroup is: SanityDesktop
+[2016-08-05 11:44:18,355] - INFO : true
+[2016-08-05 11:44:18,376] - INFO : Execution start for VerifyCarnivalBrokenLinks
+[2016-08-05 11:44:18,376] - INFO : Page : NA
+[2016-08-05 11:44:18,376] - INFO : Timestamp: Fri Aug 05 114418 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+[2016-08-05 11:44:20,692] - INFO : Current ViewPort is: (1280, 744)
+[2016-08-05 11:44:20,693] - INFO : Resizing window to 1500,4500 : 1500x4500
+[2016-08-05 11:44:20,787] - INFO : New ViewPort is: (1440, 827)
+[2016-08-05 11:44:20,793] - INFO : Opening...http://www.carnivalcorp.com/
+[2016-08-05 11:44:31,140] - INFO : Status: pass
+ Remarks: http://www.carnivalcorp.com/
+
+[2016-08-05 11:44:31,140] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:44:31,140] - INFO : Timestamp: Fri Aug 05 114431 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: checkbrokenlinks
+ BDD_Step: check for broken links
+[2016-08-05 11:45:29,343] - INFO : Status: fail
+ Remarks: Below are the broken links: <br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=&rp=aHR0cDovL3BoeC5jb3Jwb3JhdGUtaXIubmV0L3Bob2VuaXguemh0bWw%2fYz0xNDA2OTAmcD1pcm9sLWluZGV4<br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=irol-index_pf
+
+[2016-08-05 11:45:29,346] - INFO : 0 Days : 0 Hours : 1 mins : 11 sec
+[2016-08-05 11:45:29,348] - INFO : Current Execution Count: 1/0
+[2016-08-05 11:45:29,349] - INFO : Execution ends for VerifyCarnivalBrokenLinks
+[2016-08-05 11:45:29,349] - INFO : Execution start for VerifyCarnivalHomePage
+[2016-08-05 11:45:29,349] - INFO : Page : NA
+[2016-08-05 11:45:29,349] - INFO : Timestamp: Fri Aug 05 114529 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+[2016-08-05 11:45:29,393] - INFO : Current ViewPort is: (1440, 827)
+[2016-08-05 11:45:29,393] - INFO : Resizing window to 1440,827 : 1440x827
+[2016-08-05 11:45:29,419] - INFO : New ViewPort is: (1440, 827)
+[2016-08-05 11:45:29,426] - INFO : Opening...http://www.carnivalcorp.com/
+[2016-08-05 11:45:30,584] - INFO : Status: pass
+ Remarks: http://www.carnivalcorp.com/
+
+[2016-08-05 11:45:30,584] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:45:30,584] - INFO : Timestamp: Fri Aug 05 114530 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "Logo" is displayed or not
+[2016-08-05 11:45:37,154] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:45:37,154] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:45:37,154] - INFO : Timestamp: Fri Aug 05 114537 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "brandLogos" is displayed or not
+[2016-08-05 11:45:43,761] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:45:43,761] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:45:43,762] - INFO : Timestamp: Fri Aug 05 114543 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "MenuItem" is displayed or not
+[2016-08-05 11:45:50,332] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:45:50,332] - INFO : Page : CarnivalWebHome
+[2016-08-05 11:45:50,332] - INFO : Timestamp: Fri Aug 05 114550 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: verifyObjectPresent
+ BDD_Step: verify if "BAckgroundImage" is displayed or not
+[2016-08-05 11:45:56,917] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:45:56,917] - INFO : Page : NA
+[2016-08-05 11:45:56,917] - INFO : Timestamp: Fri Aug 05 114556 IST 2016
+ TestCaseID: VerifyCarnivalHomePage
+ TestStep: closeAllBrowsers
+ BDD_Step: close all Browsers
+[2016-08-05 11:45:57,001] - INFO : Status: pass
+ Remarks: 
+
+[2016-08-05 11:45:57,002] - INFO : 0 Days : 0 Hours : 0 mins : 28 sec
+[2016-08-05 11:45:57,002] - INFO : Current Execution Count: 2/0
+[2016-08-05 11:45:57,002] - INFO : Execution ends for VerifyCarnivalHomePage
+[2016-08-05 11:45:57,004] - INFO : java.lang.NullPointerException
+[2016-08-05 11:45:59,019] - INFO : SanityDesktop!VerifyCarnivalBrokenLinks!firefox!1440,827!checkbrokenlinks!true
+[2016-08-05 11:45:59,019] - INFO : SanityDesktop!VerifyCarnivalHomePage!firefox!1440,827!none!false
+[2016-08-05 11:45:59,022] - INFO : java.net.UnknownHostException: bhavuks-ipad.xebiaindia.local: bhavuks-ipad.xebiaindia.local: nodename nor servname provided, or not known

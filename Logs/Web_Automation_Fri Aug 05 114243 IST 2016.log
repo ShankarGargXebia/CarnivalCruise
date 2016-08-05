@@ -1,0 +1,51 @@
+Execution start for VerifyCarnivalBrokenLinks
+Page : NA
+Timestamp: Fri Aug 05 114243 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+Exception occurred at driver initialization: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7055; process output follows: 
+-a285-3208198ce6fd}","syncGUID":"S0STnkLjRj7s","location":"app-global","version":"47.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/Applications/Firefox.app/Contents/Resources/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1468224910000,"updateDate":1468224910000,"applyBackgroundUpdates":1,"skinnable":true,"size":7140,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"47.0.1","maxVersion":"47.0.1"}],"targetPlatforms":[],"seen":true}
+1470377564690	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1470377564690	DeferredSave.extensions.json	DEBUG	Save changes
+1470377564691	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1470377564691	addons.xpi-utils	DEBUG	Updating add-on states
+1470377564691	addons.xpi-utils	DEBUG	Writing add-ons list
+1470377564692	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/e10srollout@mozilla.org.xpi
+1470377564692	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1470377564692	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/firefox@getpocket.com.xpi
+1470377564692	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.2
+1470377564693	addons.xpi	DEBUG	Registering manifest for /Applications/Firefox.app/Contents/Resources/browser/features/loop@mozilla.org.xpi
+1470377564693	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.3.2
+1470377564707	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1470377564708	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1470377564708	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1470377564708	addons.manager	DEBUG	Starting provider: GMPProvider
+1470377564712	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1470377564712	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1470377564712	addons.manager	DEBUG	Starting provider: PluginProvider
+1470377564712	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1470377564713	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1470377564713	addons.manager	DEBUG	Completed startup sequence
+1470377564926	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1470377564926	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1470377564926	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1470377564927	DeferredSave.extensions.json	DEBUG	Starting write
+1470377565031	addons.repository	DEBUG	No addons.json found.
+1470377565032	DeferredSave.addons.json	DEBUG	Save changes
+1470377565035	DeferredSave.addons.json	DEBUG	Starting timer
+1470377565070	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1470377565070	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1470377565070	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1470377565073	DeferredSave.extensions.json	DEBUG	Write succeeded
+1470377565073	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1470377565086	DeferredSave.addons.json	DEBUG	Starting write
+1470377565101	DeferredSave.addons.json	DEBUG	Write succeeded
+
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.7.0_79'
+Driver info: driver.version: FirefoxDriver
+Unknown Exception occured: java.lang.NullPointerException
+java.net.UnknownHostException: bhavuks-ipad.xebiaindia.local: bhavuks-ipad.xebiaindia.local: nodename nor servname provided, or not known

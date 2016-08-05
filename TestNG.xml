@@ -3,7 +3,7 @@
         <test name="Basic_sanity">
             <parameters>
                 <parameter name="AUT" value="web"/>
-                <parameter name="browser" value="chrome"/>
+                <parameter name="browser" value="firefox"/>
                 <parameter name="TestGroup" value="SanityDesktop"/>
                 <parameter name="TestCaseID" value=""/>
                 <parameter name="TestCaseCount" value=""/>

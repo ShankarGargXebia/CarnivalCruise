@@ -1,46 +1,42 @@
 Execution start for VerifyCarnivalBrokenLinks
 Page : NA
-Timestamp: Fri Aug 05 110820 IST 2016
+Timestamp: Fri Aug 05 114418 IST 2016
  TestCaseID: VerifyCarnivalBrokenLinks
  TestStep: openbrowser
  BDD_Step: Given I Open the browser to go to default application
-Current ViewPort is: (1050, 783)
+Current ViewPort is: (1280, 744)
 Resizing window to 1500,4500 : 1500x4500
-New ViewPort is: (1500, 827)
-Opening...http://www.carnivalcorp.com/
-Current ViewPort is: (1050, 783)
-Resizing window to 1500,827 : 1500x827
-New ViewPort is: (1500, 827)
+New ViewPort is: (1440, 827)
 Opening...http://www.carnivalcorp.com/
 Status: pass
  Remarks: http://www.carnivalcorp.com/
 
 Page : CarnivalWebHome
-Timestamp: Fri Aug 05 110910 IST 2016
+Timestamp: Fri Aug 05 114431 IST 2016
  TestCaseID: VerifyCarnivalBrokenLinks
  TestStep: checkbrokenlinks
  BDD_Step: check for broken links
 Status: fail
  Remarks: Below are the broken links: <br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=&rp=aHR0cDovL3BoeC5jb3Jwb3JhdGUtaXIubmV0L3Bob2VuaXguemh0bWw%2fYz0xNDA2OTAmcD1pcm9sLWluZGV4<br>http://www.carnivalcorp.com/phoenix.zhtml?c=140690&p=irol-index_pf
 
-0 Days : 0 Hours : 1 mins : 50 sec
+0 Days : 0 Hours : 1 mins : 11 sec
 Current Execution Count: 1/0
 Execution ends for VerifyCarnivalBrokenLinks
 Execution start for VerifyCarnivalHomePage
 Page : NA
-Timestamp: Fri Aug 05 111010 IST 2016
+Timestamp: Fri Aug 05 114529 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: openbrowser
  BDD_Step: Given I Open the browser to go to default application
-Current ViewPort is: (1500, 827)
-Resizing window to 1500,827 : 1500x827
-New ViewPort is: (1500, 827)
+Current ViewPort is: (1440, 827)
+Resizing window to 1440,827 : 1440x827
+New ViewPort is: (1440, 827)
 Opening...http://www.carnivalcorp.com/
 Status: pass
  Remarks: http://www.carnivalcorp.com/
 
 Page : CarnivalWebHome
-Timestamp: Fri Aug 05 111011 IST 2016
+Timestamp: Fri Aug 05 114530 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: verifyObjectPresent
  BDD_Step: verify if "Logo" is displayed or not
@@ -48,7 +44,7 @@ Status: pass
  Remarks: 
 
 Page : CarnivalWebHome
-Timestamp: Fri Aug 05 111017 IST 2016
+Timestamp: Fri Aug 05 114537 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: verifyObjectPresent
  BDD_Step: verify if "brandLogos" is displayed or not
@@ -56,7 +52,7 @@ Status: pass
  Remarks: 
 
 Page : CarnivalWebHome
-Timestamp: Fri Aug 05 111024 IST 2016
+Timestamp: Fri Aug 05 114543 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: verifyObjectPresent
  BDD_Step: verify if "MenuItem" is displayed or not
@@ -64,7 +60,7 @@ Status: pass
  Remarks: 
 
 Page : CarnivalWebHome
-Timestamp: Fri Aug 05 111031 IST 2016
+Timestamp: Fri Aug 05 114550 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: verifyObjectPresent
  BDD_Step: verify if "BAckgroundImage" is displayed or not
@@ -72,17 +68,17 @@ Status: pass
  Remarks: 
 
 Page : NA
-Timestamp: Fri Aug 05 111037 IST 2016
+Timestamp: Fri Aug 05 114556 IST 2016
  TestCaseID: VerifyCarnivalHomePage
  TestStep: closeAllBrowsers
  BDD_Step: close all Browsers
 Status: pass
  Remarks: 
 
-0 Days : 0 Hours : 0 mins : 27 sec
+0 Days : 0 Hours : 0 mins : 28 sec
 Current Execution Count: 2/0
 Execution ends for VerifyCarnivalHomePage
 java.lang.NullPointerException
-SanityDesktop!VerifyCarnivalBrokenLinks!chrome!1500,827!checkbrokenlinks!true
-SanityDesktop!VerifyCarnivalHomePage!chrome!1500,827!none!false
+SanityDesktop!VerifyCarnivalBrokenLinks!firefox!1440,827!checkbrokenlinks!true
+SanityDesktop!VerifyCarnivalHomePage!firefox!1440,827!none!false
 java.net.UnknownHostException: bhavuks-ipad.xebiaindia.local: bhavuks-ipad.xebiaindia.local: nodename nor servname provided, or not known
