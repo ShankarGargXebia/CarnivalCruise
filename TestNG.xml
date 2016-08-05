@@ -4,8 +4,8 @@
             <parameters>
                 <parameter name="AUT" value="web"/>
                 <parameter name="browser" value="chrome"/>
-                <parameter name="TestGroup" value=""/>
-                <parameter name="TestCaseID" value="VerifyCarnivalBrokenLinks,VerifyCarnivalHomePage"/>
+                <parameter name="TestGroup" value="SanityDesktop"/>
+                <parameter name="TestCaseID" value=""/>
                 <parameter name="TestCaseCount" value=""/>
             </parameters>
             <classes>

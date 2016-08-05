@@ -1,0 +1,22 @@
+Execution start for VerifyCarnivalBrokenLinks
+Page : NA
+Timestamp: Fri Aug 05 110820 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: openbrowser
+ BDD_Step: Given I Open the browser to go to default application
+Current ViewPort is: (1050, 783)
+Resizing window to 1500,4500 : 1500x4500
+New ViewPort is: (1500, 827)
+Opening...http://www.carnivalcorp.com/
+Current ViewPort is: (1050, 783)
+Resizing window to 1500,827 : 1500x827
+New ViewPort is: (1500, 827)
+Opening...http://www.carnivalcorp.com/
+Status: pass
+ Remarks: http://www.carnivalcorp.com/
+
+Page : CarnivalWebHome
+Timestamp: Fri Aug 05 110910 IST 2016
+ TestCaseID: VerifyCarnivalBrokenLinks
+ TestStep: checkbrokenlinks
+ BDD_Step: check for broken links
